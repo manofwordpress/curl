@@ -1,0 +1,33 @@
+{
+    "name": "sharkas/curl",
+    "description": "a curl enahancer package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amr Sharkas",
+            "email": "manofwordpress@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "sharkas\\Curl\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "sharkas\\Curl\\Tests\\":"tests/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "sharkas\\Curl\\CurlServiceProvider"
+            ]
+        }
+    }
+
+
+}

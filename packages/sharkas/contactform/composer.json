@@ -1,0 +1,27 @@
+{
+    "name": "sharkas/contactform",
+    "description": "an enhanced version of contactus form",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amr Sharkas",
+            "email": "manofwordpress@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "sharkas\\Contactform\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers":[
+                "sharkas\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    }
+}
