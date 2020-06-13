@@ -10,7 +10,7 @@ use sharkas\Contactform\Models\ContactForm;
 class ContactFormController extends Controller
 {
     public function index(){
-        return view('Contactform::contact');
+        return view('Contactform::contact'); //home
     }
 
     public function sendEmail(Request $request){
